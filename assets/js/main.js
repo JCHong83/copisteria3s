@@ -34,9 +34,9 @@
 
 		// Title Bar.
 			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+				'<div id="titleBar" style="min-height:70px;">' +
+					'<a href="#navPanel" class="toggle" style="min-height:70px;"></a>' +
+					'<span class="title">' + '<a href="index.html"><img id="logo-secondary" src="images/lOGO-COPISTERIA-NEW-GRANDE-scaled.webp" alt="logo" style="max-width:150px;" /></a>' + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);

@@ -2892,6 +2892,9 @@ body.is-touch .poptrox-popup .closer {
   #header {
     display: none;
   }
+  #header-secondary {
+    display: none;
+  }
   /* Banner */
   #banner {
     padding: 5em 3em 2em 3em;
@@ -2972,6 +2975,8 @@ body.is-touch .poptrox-popup .closer {
     text-align: center;
     top: 0;
     width: 44px;
+    min-height: 70px;
+    margin: auto;
   }
   #titleBar .title {
     color: #616161;
